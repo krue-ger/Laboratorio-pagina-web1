@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presentación de Estudiantes</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+body{ background:#7c608094; }
+
+.portada{
+    background:linear-gradient(135deg,#391a81,#15acac);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+.portada h1{ margin-top:20px; font-size:45px; }
+.portada p{ margin-top:10px; font-size:18px; }
+
+.titulo{ text-align:center; margin:40px 0; color:#000000; }
+
+.contenedor{
+    display:flex; flex-wrap:wrap;
+    justify-content:center; gap:25px; padding:20px;
+}
+.tarjeta{
+    width:320px;
+    background:rgb(239,243,242);
+    border-radius:15px; overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+.tarjeta:hover{ transform:translateY(-8px); }
+.tarjeta img{ width:100%; height:280px; object-fit:cover; }
+.info{ padding:20px; }
+.info h2{ color:#0f4c81; margin-bottom:10px; }
+.info p{ margin-bottom:8px; line-height:1.5; }
+
+footer{
+    background:#0f4c81; color:white;
+    text-align:center; padding:15px; margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<section class="portada">
+  <div class="contenido-portada">
+    <h1>Bienvenidos a Nuestra Página Web</h1>
+    <p>Conoce a los integrantes de nuestro grupo, sus intereses, pasatiempos y un poco sobre cada uno de ellos.</p>
+  </div>
+</section>
+
+<h1 class="titulo">Nuestros Estudiantes</h1>
+
+<div class="contenedor">
+
+<!-- JOSÉ -->
+<div class="tarjeta">
+    <img src="https://i.ibb.co/ZzjhrL8J/Jose.jpg" alt="José Aronátegui">
+    <div class="info">
+        <h2>José Aronátegui</h2>
+        <p><strong>Cédula:</strong> 8-1057-2083</p>
+        <p>Me gusta bastante el basket y la UFC.</p>
+        <p>Mi superhéroe favorito es Batman.</p>
+        <p>Me gusta bastante resolver problemas.</p>
+    </div>
+</div>
+
+<!-- NICOL -->
+<div class="tarjeta">
+    <img src="https://i.ibb.co/jk02jNDn/Dayana.jpg" alt="Nicol Calderón">
+    <div class="info">
+        <h2>Nicol Calderón</h2>
+        <p><strong>Cédula:</strong> 20-14-9278</p>
+        <p>Me gusta ver series y salir con mis amig@s.</p>
+        <p>Me gusta ayudar a las personas y maquillarme.</p>
+    </div>
+</div>
+
+<!-- JOEL -->
+<div class="tarjeta">
+    <img src="https://i.ibb.co/BHPHynBn/Joel.jpg" alt="Joel Ayarza">
+    <div class="info">
+        <h2>Joel Ayarza</h2>
+        <p><strong>Cédula:</strong> 8-1045-1005</p>
+        <p>Me gusta el fútbol y las motos.</p>
+    </div>
+</div>
+
+<!-- MARTHA -->
+<div class="tarjeta">
+    <img src="https://i.ibb.co/RT61HDkD/Michelle.jpg" alt="Martha Duque">
+    <div class="info">
+        <h2>Martha Duque</h2>
+        <p><strong>Cédula:</strong> 20-70-9397</p>
+        <p>Soy una persona amable, creativa y sociable.</p>
+        <p>Disfruto pasar tiempo con las personas que quiero.</p>
+        <p>Me gusta mucho escuchar música y hornear postres.</p>
+    </div>
+</div>
+
+<!-- JOSHUAN -->
+<div class="tarjeta">
+    <img src="https://i.ibb.co/Nd4KwrRZ/Joshua.jpg" alt="Joshuan Pineda">
+    <div class="info">
+        <h2>Joshuan Pineda</h2>
+        <p><strong>Cédula:</strong> 8-1059-1843</p>
+        <p>Me gustan los juegos de Shooter y carreras, además de las carreras de autos.</p>
+    </div>
+</div>
+
+</div>
+
+<footer>Proyecto HTML - Presentación de Estudiantes</footer>
+
+</body>
+</html>
